@@ -1,7 +1,6 @@
 {
-  "name": "wrapper-auth-ze",
-  "version": "0.1.3",
-  "description": "",
+  "name": "@zeroexu/wrapper-auth-ze",
+  "version": "0.1.4",
   "main": "./build/index.js",
   "scripts": {
     "build": "webpack"
@@ -21,10 +20,16 @@
   "dependencies": {
     "@material/react-button": "^0.15.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0"
+    "react": "^16.12.0",
+    "react-router-dom": "^5.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeroexu/wrapped-auth.git"
-  }
+    "url": "git+https://github.com/zeroexu/wrapped-auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zeroexu/wrapped-auth/issues"
+  },
+  "homepage": "https://github.com/zeroexu/wrapped-auth#readme",
+  "description": ""
 }
